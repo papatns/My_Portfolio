@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: black; */
+}
+body{
+    width: auto;
+    height: auto;
+    background: #161513;
+    color: white;
+    font-family: "outfit";
+    /* background: white; */
+    /* border: 1px solid white; */
+    /* margin: 0px 8rem 0px 8rem; */
+}

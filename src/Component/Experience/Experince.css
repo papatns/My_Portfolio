@@ -1,0 +1,121 @@
+.experience-title{
+    margin: 50px 0px 0px 0px;
+    text-align: center;
+}
+.experience-title h1{
+    font-size: 50px;
+    font-weight: 600;
+    
+}
+.experience-title img{
+    width: 140px;
+    height: 50px;
+   
+    margin-top: -100px;
+    margin-left: 100px;
+    
+    opacity: 0.2;
+
+}
+.experience-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.experience-subcontainer{
+    display: flex;
+    gap: 30px;
+    margin-top: 80px;
+}
+.experience-subcontainer span{
+     border: 1px solid white;
+}
+.company-experience{
+    border: 3px solid #f315ff;
+    border-radius: 20px;
+    padding: 0px 20px 20px 20px;
+    width: auto;
+    height: auto;
+}
+.header{
+    display: flex;
+    gap:10px;
+    /* font-size: 25px; */
+    color:#DA7C25;
+}
+.header p{
+    font-size: 40px;
+    font-weight: normal;
+    margin-top: 20px;
+    
+}
+.exicon{
+    font-size: 100px;
+}
+.subheader{
+    display: flex;
+    gap: 5px;
+
+}
+.subheader div{
+    font-size: 13px;
+}
+.lapicon{
+    /* margin-top: 2px; */
+}
+.content{
+    margin-top: 8px;
+}
+.college-experience{
+    border: 3px solid #f315ff;
+    border-radius: 20px;
+    padding: 0px 20px 20px 20px;
+    width: 560px;
+    height: auto;
+    margin-right: 10px;
+    /* margi */
+}
+.college-header{
+    display: flex;
+    gap: 10px;
+    /* font-size: 40px; */
+    margin-top: 18px;
+    font-weight: normal;
+    color:#DA7C25;
+}
+.gradlogo{
+    font-size: 40px;
+    margin-top: 2px;
+}
+.college-header div{
+    font-size: 40px;
+}
+.college-subheader{
+    display: flex;
+    gap: 5px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+
+}
+
+.college-subheader div{
+    font-size: 13px;
+}
+
+@media (max-width: 768px){
+    .experience-title h1{
+        font-size: 50px;
+        font-weight: 600;
+        margin-right: 15px;
+        
+    }
+    .experience-subcontainer{
+        margin: 50px 35px 0px 15px;
+        width: 300px;
+    }
+    .college-experience{
+        margin: 10px 35px 0px 18px;
+        width: 250px;
+    }
+}

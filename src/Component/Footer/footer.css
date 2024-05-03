@@ -1,0 +1,17 @@
+.fcontainer{
+    height: 16vh;
+    background: linear-gradient(267deg, #DA7C25 , #9508bc);
+    border-radius: 16px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    text-align: center;
+  }
+  @media (max-width: 768px){
+    .fcontainer{
+      width: 300px;
+      margin: 0px 30px 0px 30px ;
+      border: 1px solid white;
+      /* height: 50px; */
+    }
+  }
