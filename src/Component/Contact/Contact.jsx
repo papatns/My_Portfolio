@@ -21,20 +21,20 @@ const Contact = () => {
                 <h3>Connect Me</h3>
                 <p>Rishabh Shukla</p>
                 
-                <a href="https://www.linkedin.com/in/rishabh-shukla-43a6101a4/" rel="link">Get Connected</a>
+                <a href="https://www.linkedin.com/in/rishabh-shukla-43a6101a4/" target="_blank" rel="link">Get Connected</a>
             </div>
             <div className="box1">
                 <FaInstagram className="c-icon"/>
                 <h3>Follow Me</h3>
                 <p>hirishabhshukla</p>
                 
-                <a href="https://www.instagram.com/hirishabhshukla/" rel="link">Follow now</a>
+                <a href="https://www.instagram.com/hirishabhshukla/" target="_blank" rel="link">Follow now</a>
             </div>
             <div className="box1">
                 <FaGithub className="c-icon"/>
                 <h3>Follow Me</h3>
                 <p>papatns</p>
-                <a href="https://github.com/papatns" rel="link">Follow now</a>
+                <a href="https://github.com/papatns" target="_blank" rel="link">Follow now</a>
             </div>
           </div>
           <div className="right-container">
